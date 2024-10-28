@@ -1,0 +1,8 @@
+---
+compliance_test:
+  source:
+    class: compliance_test.TestDeviceCompliance
+  devices: "%{testbed.devices.keys()}"
+
+uids:
+  - compliance_test

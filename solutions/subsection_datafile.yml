@@ -1,0 +1,10 @@
+---
+extends: "%CALLABLE{genie.libs.sdk.genie_yamls.datafile(subsection)}"
+
+setup:
+  order:
+    - connect
+
+cleanup:
+  sections:
+  order: []
