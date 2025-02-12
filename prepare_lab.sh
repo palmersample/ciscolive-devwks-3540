@@ -256,7 +256,7 @@ PROXY_NETCONF_PORT=8300
 # Set defaults if Vault and NetBox vars are not defined
 #
 if [ "x${VAULT_URL}" = "x" ]; then
-  VAULT_URL="https://pod${POD_NUMBER}-vault.${DNS_DOMAIN}"
+  VAULT_URL="https://vault.${DNS_DOMAIN}"
 fi
 
 if [ "x${VAULT_TOKEN}" = "x" ]; then
@@ -264,7 +264,7 @@ if [ "x${VAULT_TOKEN}" = "x" ]; then
 fi
 
 if [ "x${NETBOX_URL}" = "x" ]; then
-  NETBOX_URL="https://pod${POD_NUMBER}-netbox.${DNS_DOMAIN}"
+  NETBOX_URL="https://netbox.${DNS_DOMAIN}"
 fi
 
 if [ "x${NETBOX_TOKEN}" = "x" ]; then
