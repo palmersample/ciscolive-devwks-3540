@@ -268,7 +268,7 @@ if [ "x${NETBOX_URL}" = "x" ]; then
 fi
 
 if [ "x${NETBOX_TOKEN}" = "x" ]; then
-  NETBOX_TOKEN="ba9cded0eda0f4053cfbe1e11e33b1e0e141100e"
+  NETBOX_TOKEN="K4ZVhJfAWWQSU1w1BQzLbKufw3yPbQsyVUhyh4ex"
 fi
 
 echo "VAULT URL: ${VAULT_URL}"
